@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PySpark / Spark temp files
+.metastore_db/
+spark-warehouse/
+
+# Logs and local data
+*.log
+*.csv
+*.tsv
+*.out
+*.bak
+*.tmp
+*.swp
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+ENV/
+Pipfile.lock
+
+# IDE and editor folders
+.vscode/
+.idea/
+
+# MacOS and system files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Notebook conversion cache
+__pycache__/
